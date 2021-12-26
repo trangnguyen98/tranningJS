@@ -1,5 +1,5 @@
 //promise đc sinh ra để xử lý các nguyên tắc bất đồng bộ, trc khi sd promise ta sd callback => khi sd callback sẽ gặp vđ là callback hell, code sẽ bị lồng vào nhau, rối code khó nhìn
-//Để tạo ra một promise object thì bạn dùng class Promise có sẵn sd vs từ khoá new
+//Để tạo ra một promise object thì dùng class Promise có sẵn sd vs từ khoá new
 //constructor class sẽ truyền vào 1 excutor function gồm 2 tham số truyền vào đều là function là resolve và reject
 const promise = new Promise(
   function (resolve, reject) {

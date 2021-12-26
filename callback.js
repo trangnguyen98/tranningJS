@@ -1,3 +1,5 @@
+// function callback sẽ đc gọi khi thực thi tác vụ bất đồng bộ trong js (js ngôn ngữ đơn luồng)
+
 //callback là 1 hàm 
 //đc truyền qua đối số của 1 function khác
 //và đc gọi lại trong hàm nhận đối số

@@ -7,6 +7,7 @@ class Course {
     this.price = price
   }
   //method của class
+  //bóc tác riêng biệt đỡ bị rối code
   getName() {
     return this.name
   }
