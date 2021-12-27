@@ -66,10 +66,3 @@ export default ExampleFunction;
 //code logic ở trong component luôn
 //các state khác nhau không phụ thuộc lẫn nhau và có thể quản lí bằng nhiều useState riêng biệt
 //các state dính kèm với component, vd: hàm onChange của Input
-
-//2. useEffect để xử lý các side effect
-// side effect: khi có tác động xảy ra dl phần mềm thay đổi
-//side effect sẽ gọi API lấy dữ liệu, tương tác với DOM, remove listener, setTimeout, setInterval
-// useEffect nhận 2 tham số truyền vào là callback(bắt buộc) và 1 mảng chứ những cái phụ thuộc vào dl [deps] (k bắt buộc)
-//các code logic viết trong callback để thực hiện các side effect.
-//callback luôn dc gọi sau khi component mounted
